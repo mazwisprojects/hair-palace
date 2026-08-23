@@ -1,0 +1,105 @@
+/* About Page Styles */
+.about-page {
+  background: white;
+}
+
+.about-hero {
+  background: linear-gradient(135deg, var(--primary-dark), #2a2a2a);
+  color: white;
+  padding: 6rem 20px;
+  text-align: center;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  color: var(--primary-gold);
+  margin: 0;
+}
+
+.about-content {
+  padding: 6rem 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-intro,
+.about-mission,
+.about-team,
+.about-values {
+  margin-bottom: 4rem;
+}
+
+.about-intro h2,
+.about-mission h2,
+.about-team h2 {
+  color: var(--primary-gold);
+  font-size: 2rem;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.about-intro p,
+.about-mission p,
+.about-team p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-light);
+}
+
+.about-values h3 {
+  color: var(--primary-gold);
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-values ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.about-values li {
+  padding-left: 2rem;
+  position: relative;
+  color: var(--text-light);
+  line-height: 1.8;
+}
+
+.about-values li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--primary-gold);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 4rem 20px;
+    min-height: 200px;
+  }
+
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .about-content {
+    padding: 4rem 20px;
+  }
+
+  .about-intro h2,
+  .about-mission h2,
+  .about-team h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-values ul {
+    grid-template-columns: 1fr;
+  }
+}

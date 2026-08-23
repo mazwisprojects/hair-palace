@@ -1,0 +1,45 @@
+/* Services Page Styles */
+.services-page {
+  background: white;
+}
+
+.services-hero {
+  background: linear-gradient(135deg, var(--primary-dark), #2a2a2a);
+  color: white;
+  padding: 6rem 20px;
+  text-align: center;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-hero-content h1 {
+  font-size: 3rem;
+  color: var(--primary-gold);
+  margin-bottom: 1rem;
+}
+
+.services-hero-content p {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.services-list {
+  padding: 6rem 20px;
+}
+
+@media (max-width: 768px) {
+  .services-hero {
+    padding: 4rem 20px;
+    min-height: 200px;
+  }
+
+  .services-hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .services-list {
+    padding: 4rem 20px;
+  }
+}

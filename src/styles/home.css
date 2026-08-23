@@ -1,0 +1,34 @@
+/* Home Page Styles */
+.home-page {
+  overflow-x: hidden;
+}
+
+/* Services Section */
+.services-section {
+  background: white;
+  padding: 6rem 20px;
+}
+
+.services-section h2 {
+  margin-bottom: 0.5rem;
+}
+
+/* Gallery Section */
+.gallery-section {
+  background: #f9f9f9;
+  padding: 6rem 20px;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  background: white;
+  padding: 6rem 20px;
+}
+
+@media (max-width: 768px) {
+  .services-section,
+  .gallery-section,
+  .testimonials-section {
+    padding: 4rem 20px;
+  }
+}
