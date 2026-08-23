@@ -21,8 +21,7 @@ export default function Navbar() {
           <span>Hair Palace</span>
         </Link>
 
-        <div className={
-avbar-menu }>
+        <div className={`navbar-menu ${isOpen ? 'active' : ''}`}>
           <Link to="/" className="nav-link" onClick={closeMenu}>Home</Link>
           <Link to="/services" className="nav-link" onClick={closeMenu}>Services</Link>
           <Link to="/gallery" className="nav-link" onClick={closeMenu}>Gallery</Link>
